@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class Bai5 {
 
     public static void main(String[] args) {
-        // Nhap hoten, diem toan, ly, hoa
+
+        lab2Bai5();
+
+    }
+
+    public static void lab2Bai5() {
+
+           // Nhap hoten, diem toan, ly, hoa
         // Tinh diem tb
         // Xep loai:
         // 9 - 10: Xuat sac
@@ -29,8 +36,7 @@ public class Bai5 {
 
         String xepLoai = xepLoai(diemTb);
 
-        System.out.printf("Sinh vien %s dat diem TB %.2f xep loai %s", hoTen, diemTb, xepLoai);
-
+        System.out.printf("Sinh vien %s dat diem TB %.2f xep loai %s%n", hoTen, diemTb, xepLoai);
     }
 
     public static String xepLoai(float diemTb) {
